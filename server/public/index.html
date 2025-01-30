@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Socket io</title>
-    <script src="https://cdn.socket.io/4.0.1/socket.io.js"></script>
-    <script>
-    </script>
+   
+    
 </head>
 <body>
     <h1>Socket io Example</h1>
+    <form id="form">
+        <input type="text" id="input" placeholder="Enter message"/>
+        <button type="submit">Send</button>
+    </form>
+    <ul id="messages"></ul>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="script.js"></script>
     
 </body>
 </html>
